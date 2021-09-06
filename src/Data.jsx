@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { chineseToEnglish } from "./data";
 
 export const Data = () => {
-  const [counter, setCounter] = useState(chineseToEnglish[0].key);
+  const [counter, setCounter] = useState(chineseToEnglish[0].key - 1);
 
   // display the data with the key of card state
   return (
